@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/mmk.css -o ./src/tailwind.css --watch",
+    "dev": "echo \"No build needed, just serve static files\" && exit 0",
+    "build": "echo \"No build needed, just serve static files\" && exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
